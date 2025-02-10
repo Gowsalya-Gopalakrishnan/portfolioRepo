@@ -10,3 +10,25 @@
     color: white;
     text-align: center;
 }
+@media screen and (max-width:320px) {
+    #footer{
+        width: 100%;
+        position: bottom;
+        bottom: 0;
+        background-color: rgb(17, 77, 74);
+        color: white;
+        text-align: center;
+        margin-top: 20%;
+    }
+}
+@media screen and (max-width:768px) {
+    #footer{
+        width: 100%;
+        position: bottom;
+        bottom: 0;
+        background-color: rgb(17, 77, 74);
+        color: white;
+        text-align: center;
+        margin-top: 20%;
+    }
+}

@@ -72,7 +72,8 @@
     }
   
     .hamburger-icon {
-      display: block; /* Show the hamburger icon on small screens */
+      display: block;
+       /* Show the hamburger icon on small screens */
     }
   }
   

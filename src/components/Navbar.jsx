@@ -87,7 +87,7 @@ const Navbar = () => {
           Contact
         </NavLink>
         <NavLink to='https://drive.google.com/file/d/1wp1eaOLZW22XAkwS-aV2bU-Y1QYU1KXJ/view?usp=sharing'
-        //  className={({ isActive }) => (isActive ? 'active' : '')}
+         className={({ isActive }) => (isActive ? 'active' : '')}
           style={{ textDecoration: "none", marginRight: "90px" }}  download="resume.pdf" 
           target="_blank" 
           rel="noopener noreferrer" >

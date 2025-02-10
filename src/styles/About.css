@@ -112,3 +112,63 @@ box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0p
         
         }   
 }
+@media screen and (max-width:768px) {
+    #about{
+        padding: 20px;
+        height: 30vb;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        }
+        .navbar{
+            /* border: 2px solid rgb(61, 184, 167); */
+            background-color:lightblue;
+            /* border: 2px solid red; */
+            /* margin-top: -30%; */
+        } 
+        #about h2{
+            text-align: center;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+        }
+        .image{
+            border: 2px solid red;
+            width: 40%;
+            border-radius: 15%;
+            height: 150%;
+            margin-top: -38rem;
+            margin-left: 30%;
+        }
+        .about-text{
+            margin-top: 50%;
+        }
+        #about p{
+            width: 80%;
+            line-height: 2rem;
+            margin-left: -25%;
+            font-size:1rem;
+            text-align: justify;
+            list-style: none;
+            word-spacing: normal;
+            font-family:cursive;
+            margin-top: 50%;
+            margin-left: 10%;
+        }
+       
+        .resumebtn{
+            padding: 15px 10px;
+            margin-left: 45%;
+            border-radius: 10px;
+            background-color: rgb(114, 182, 182);
+            border: none;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-weight: bold;
+            /* padding: 5px; */
+            color: white;
+            transition: transform .2s;
+        }
+        .resumebtn:hover{
+            cursor: pointer;
+            transform: scale(1.2);
+        
+        }   
+}

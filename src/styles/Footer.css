@@ -1,0 +1,12 @@
+#footer{
+    /* margin-top: 10%; */
+    /* padding: -10px; */
+    /* border: 2px solid red; */
+    /* height: 5%; */
+    width: 100%;
+    position: bottom;
+    bottom: 0;
+    background-color: rgb(17, 77, 74);
+    color: white;
+    text-align: center;
+}

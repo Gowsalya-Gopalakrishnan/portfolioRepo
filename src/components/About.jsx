@@ -9,6 +9,7 @@ const About = () => {
         <div className='about-text'>
           <p>
         Passionate React Developer with a foundataion in front-end development.
+        I have completed my Master's from Kamaraj University in Sivakasi, Tamil Nadu.
         I have recently completed my training in React,Redux,Javascripts,HTML,CSS,Rest Api's and chakra UI.
         I thrive in building responsive interactive User Interfaces.
         Eager to contribute to a team and continue learing from experinced developers while applying my knowledge in read world applications.  

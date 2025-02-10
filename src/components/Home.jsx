@@ -2,7 +2,7 @@ import React from 'react'
 import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
-import Statistics from './Statistics'
+import Footer from './Footer'
 import Contact from './Contact';
 import '../styles/Home.css'
 import '../styles/About.css'
@@ -24,6 +24,7 @@ const Home = () => {
       <Projects/>
       {/* <Statistics/> */}
       <Contact/>
+      <Footer/>
       </div>
       </>
       

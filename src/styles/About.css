@@ -27,12 +27,21 @@ box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0p
 
 }
 .image{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 25%;
     border-radius: 15%;
     height: 80%;
     margin-top: -25%;
     margin-left: 10%;
+}
+.image img{
+     border: 2px solid red;
+     width: 100%;
+    border-radius: 15%; 
+    height: 100%; 
+     margin-top: -25%; 
+     margin-left: 10%; 
+     background-color: white; 
 }
 .resumebtn{
     padding: 15px 10px;
@@ -54,48 +63,56 @@ box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0p
 }
 @media screen and (max-width:320px) {
     #about{
-        padding: 50px;
-        height: 30vb;
+        /* margin-top: 10%; */
+        padding: 70px;
+        /* border: 2px solid red; */
+        height: 70vb;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
         }
         .navbar{
             /* border: 2px solid rgb(61, 184, 167); */
             background-color:lightblue;
-            /* border: 2px solid red; */
-            /* margin-top: -30%; */
         } 
         #about h2{
             text-align: center;
             font-size: 2.5rem;
             text-transform: uppercase;
         }
-        .image{
-            border: 2px solid red;
-            width: 93%;
-            border-radius: 15%;
-            height: 110%;
-            margin-top: -45rem;
-            margin-left: 5%;
-        }
-        .about-text{
-            margin-top: 150%;
-        }
         #about p{
-            width: 150%;
+            border: 1px solid red;
+            width: 50%;
             line-height: 2rem;
-            margin-left: -25%;
+            margin-left: 50%;
             font-size:1rem;
             text-align: justify;
             list-style: none;
             word-spacing: normal;
             font-family:cursive;
-            margin-top: 30%;
-        
+            /* margin-top:300%; */
         }
-       
+        /* #about .about-text p{
+            margin-top: 50%;
+        } */
+        .image{
+            /* border: 2px solid red; */
+            width: 25%;
+            border-radius: 15%;
+            height: 80%;
+            margin-top: -25%;
+            margin-left: 10%;
+        }
+        .image img{
+             border: 2px solid red;
+             width: 100%;
+            border-radius: 15%; 
+            height: 100%; 
+             margin-top: -250%; 
+             margin-left: 10%; 
+             background-color: white; 
+        }
         .resumebtn{
             padding: 15px 10px;
-            margin-left: 20%;
+            margin-left: 70%;
             border-radius: 10px;
             background-color: rgb(114, 182, 182);
             border: none;
@@ -110,7 +127,8 @@ box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0p
             cursor: pointer;
             transform: scale(1.2);
         
-        }   
+        }
+       
 }
 @media screen and (max-width:768px) {
     #about{
@@ -130,12 +148,12 @@ box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0p
             text-transform: uppercase;
         }
         .image{
-            border: 2px solid red;
+            /* border: 2px solid red; */
             width: 40%;
             border-radius: 15%;
             height: 150%;
-            margin-top: -38rem;
-            margin-left: 30%;
+            margin-top: -35rem;
+            margin-left: 25%;
         }
         .about-text{
             margin-top: 50%;
@@ -164,11 +182,12 @@ box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0p
             font-weight: bold;
             /* padding: 5px; */
             color: white;
-            transition: transform .2s;
+            transition: transform 2s;
         }
         .resumebtn:hover{
             cursor: pointer;
             transform: scale(1.2);
-        
         }   
+        
 }
+

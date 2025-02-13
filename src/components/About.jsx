@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/About.css'
+import pic from '../assets/mypic.png'
 const About = () => {
 
     return (
@@ -12,7 +13,7 @@ const About = () => {
         I have completed my Master's from Kamaraj University in Sivakasi, Tamil Nadu.
         I have recently completed my training in React,Redux,Javascripts,HTML,CSS,Rest Api's and chakra UI.
         I thrive in building responsive interactive User Interfaces.
-        Eager to contribute to a team and continue learing from experinced developers while applying my knowledge in read world applications.  
+        Eager to contribute to a team and continue learing from experinced developers while applying my knowledge in real world applications.  
         </p>
         <a
           href="https://drive.google.com/file/d/1wp1eaOLZW22XAkwS-aV2bU-Y1QYU1KXJ/view?usp=sharing" 
@@ -26,7 +27,7 @@ const About = () => {
         
         <div className='image'>
        
-        <img src='' alt=''/>
+        <img src={pic} alt=''/>
          </div>
          
       </div>

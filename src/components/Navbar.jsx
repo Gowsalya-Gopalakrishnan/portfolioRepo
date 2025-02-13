@@ -1,58 +1,12 @@
-// import React from 'react'
-// import {NavLink} from 'react-router-dom'
-// import '../styles/Navbar.css'
-// import hamburger from '../assets/hamburgericon.png'
-// const Navbar = () => {
-//   return (
-//     <div className='navbar' >
-//         <h1 className='heading'>Port<span>folio</span></h1>
-//           <NavLink to="/" exact className={({ isActive }) => (isActive ? 'active' : '')} 
-//           style={{textDecoration:"none", marginRight:"10px"}}>
-//               Home
-//             </NavLink>
-          
-//             <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}
-//             style={{textDecoration:"none", marginRight:"10px"}}>
-//               About
-//             </NavLink>
-          
-//             <NavLink to="/skills" className={({ isActive }) => (isActive ? 'active' : '')}
-//             style={{textDecoration:"none",marginRight:"10px"}}>
-//               Skills
-//             </NavLink>
-          
-//             <NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : '')}
-//             style={{textDecoration:"none",marginRight:"10px"}}>
-//               Projects
-//             </NavLink>
-          
-//             {/* <NavLink to="/statistics" className={({ isActive }) => (isActive ? 'active' : '')}
-//             style={{textDecoration:"none",marginRight:"10px"}}>
-//               Statistics
-//             </NavLink> */}
-        
-//             <NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : '')}
-//             style={{textDecoration:"none",marginRight:"28px"}}>
-//               Contact
-//             </NavLink>
-          
-//     </div>
-    
-//   )
-// }
-
-// export default Navbar
-
 
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../styles/Navbar.css';
-import hamburger from '../assets/hamburgericon.png';  // Add your hamburger icon here
+import hamburger from '../assets/hamburgericon.png';  
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false); // State to handle hamburger menu toggle
 
-  // Function to toggle the menu visibility
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
@@ -83,7 +37,7 @@ const Navbar = () => {
           Projects
         </NavLink>
         <NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : '')}
-          style={{ textDecoration: "none", marginRight: "60px" }}>
+          style={{ textDecoration: "none", marginRight: "60px" ,marginTop:""}}>
           Contact
         </NavLink>
         <NavLink to='https://drive.google.com/file/d/1wp1eaOLZW22XAkwS-aV2bU-Y1QYU1KXJ/view?usp=sharing'
